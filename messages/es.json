@@ -1,0 +1,106 @@
+{
+  "age": {
+    "eyebrow": "solo +18",
+    "title": "¿seguro que quieres entrar?",
+    "sub": "al entrar confirmas que eres mayor de edad y estás listo para todo lo de dentro.",
+    "yes": "sí, baby 🖤",
+    "no": "mejor me voy"
+  },
+  "nav": {
+    "lang": "ES",
+    "theme_soft": "Suave",
+    "theme_dark": "Oscuro"
+  },
+  "hero": {
+    "handle": "@julisergova",
+    "scroll": "abajo"
+  },
+  "stats": {
+    "posts_label": "posts en fanvue",
+    "per_week": "posts nuevos / semana",
+    "dms": "DMs personales",
+    "dms_sub": "respondo yo"
+  },
+  "sides": {
+    "eyebrow": "dos caras",
+    "soft_title": "el lado tierno",
+    "soft_sub": "buenos días por DM. pijamas. pecas que no has visto.",
+    "wild_title": "el lado salvaje",
+    "wild_sub": "pelucas, látex, face paint. la versión que muerde.",
+    "toggle_soft": "tierna",
+    "toggle_wild": "salvaje"
+  },
+  "poll": {
+    "eyebrow": "tú decides",
+    "teaser": "votación abierta",
+    "voted": "votaste ✓",
+    "votes": "votos",
+    "cta_after": "ver la ganadora en Fanvue →"
+  },
+  "fv": {
+    "tag": "bloqueado",
+    "seal": "detrás del candado",
+    "live_badge": "Fanvue · en vivo",
+    "next_drop": "próximo post en",
+    "kicker": "el evento principal",
+    "title": "Fanvue abre en",
+    "title_open": "Fanvue está abierto",
+    "tease": "todo lo que no puedo subir a otro lado. sets sin censura, audios a las 3am, los DMs que matarían a mi mamá.",
+    "perks": [
+      "sets semanales sin censura",
+      "notas de voz y videos largos",
+      "DMs personales — respondo yo",
+      "pedidos custom, si me lo pides bonito"
+    ],
+    "d": "días",
+    "h": "horas",
+    "m": "min",
+    "s": "seg",
+    "cta_locked": "acceso anticipado →",
+    "cta_open": "desbloquear todo →",
+    "foot_locked": "primeros 50 subs: un mes gratis + video personal",
+    "foot_open": "mensual · cancela cuando quieras · DMs incluidos"
+  },
+  "tg": {
+    "title": "telegram — mi vida 🖤",
+    "desc": "updates diarios, notas de voz, behind the scenes. aquí estoy de verdad.",
+    "cta": "susúrrame por aquí →",
+    "preview_msg": "subí algo nuevo... ¿quieres verlo? 🖤",
+    "preview_time": "23:48",
+    "chip": "telegram"
+  },
+  "ig": {
+    "title": "instagram — el lado tierno",
+    "desc": "selfies, fotos al espejo, la versión que casi puedes enseñar a tu mamá.",
+    "cta": "sígueme en insta →",
+    "chip": "instagram"
+  },
+  "letter": {
+    "eyebrow": "de mí para ti"
+  },
+  "wyg": {
+    "eyebrow": "lo bueno",
+    "title": "lo que te espera en Fanvue",
+    "items": [
+      { "title": "2+ posts exclusivos cada semana", "sub": "sets nuevos, nada de relleno" },
+      { "title": "DMs personales — respondo yo", "sub": "cuando estoy despierta. sin bots." },
+      { "title": "pedidos custom", "sub": "si me lo pides bonito" },
+      { "title": "sorteos para suscriptores", "sub": "meses gratis, chats, y más" }
+    ],
+    "cta_locked": "primer puesto cuando abra →",
+    "cta_open": "entrar a Fanvue →"
+  },
+  "giveaway": {
+    "tag": "sorteo"
+  },
+  "footer": {
+    "copy": "© 2026 Juli",
+    "terms": "términos",
+    "privacy": "privacidad",
+    "contact": "contacto"
+  },
+  "sticky": {
+    "fv": "Fanvue",
+    "tg": "Telegram"
+  }
+}

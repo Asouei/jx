@@ -1,0 +1,106 @@
+{
+  "age": {
+    "eyebrow": "18+ only",
+    "title": "are you sure you wanna come in?",
+    "sub": "by entering you confirm you're of legal age and ready for everything inside.",
+    "yes": "yes, baby 🖤",
+    "no": "i'm a good boy, bye"
+  },
+  "nav": {
+    "lang": "EN",
+    "theme_soft": "Soft",
+    "theme_dark": "Dark"
+  },
+  "hero": {
+    "handle": "@julisergova",
+    "scroll": "scroll"
+  },
+  "stats": {
+    "posts_label": "posts on fanvue",
+    "per_week": "new posts / week",
+    "dms": "personal DMs",
+    "dms_sub": "I reply myself"
+  },
+  "sides": {
+    "eyebrow": "two sides",
+    "soft_title": "the soft side",
+    "soft_sub": "good morning texts. sweater paws. freckles you've never seen.",
+    "wild_title": "the wild side",
+    "wild_sub": "wigs, latex, face paint. the version of me that bites back.",
+    "toggle_soft": "soft",
+    "toggle_wild": "wild"
+  },
+  "poll": {
+    "eyebrow": "you decide",
+    "teaser": "voting is live",
+    "voted": "you voted ✓",
+    "votes": "votes",
+    "cta_after": "see the winner on Fanvue →"
+  },
+  "fv": {
+    "tag": "locked",
+    "seal": "behind the lock",
+    "live_badge": "Fanvue · live",
+    "next_drop": "next post drops in",
+    "kicker": "the main event",
+    "title": "Fanvue opens in",
+    "title_open": "Fanvue is open",
+    "tease": "everything I can't post anywhere else. uncensored sets, voice notes at 3am, the DMs my mom would kill me for.",
+    "perks": [
+      "uncensored weekly sets",
+      "voice notes & long videos",
+      "personal DMs — I reply myself",
+      "custom requests, if you ask sweetly"
+    ],
+    "d": "days",
+    "h": "hours",
+    "m": "minutes",
+    "s": "seconds",
+    "cta_locked": "get the early-access link →",
+    "cta_open": "unlock everything →",
+    "foot_locked": "first 50 subs get one month free + a personal video",
+    "foot_open": "monthly · cancel anytime · personal DMs included"
+  },
+  "tg": {
+    "title": "telegram — my life 🖤",
+    "desc": "daily updates, voice notes, behind the scenes. it's where i actually live.",
+    "cta": "come whisper to me →",
+    "preview_msg": "i posted something new... wanna see? 🖤",
+    "preview_time": "23:48",
+    "chip": "telegram"
+  },
+  "ig": {
+    "title": "instagram — the soft side",
+    "desc": "selfies, mirror pics, the version of me you can show your mom (almost).",
+    "cta": "follow on insta →",
+    "chip": "instagram"
+  },
+  "letter": {
+    "eyebrow": "from me"
+  },
+  "wyg": {
+    "eyebrow": "the good stuff",
+    "title": "what's waiting for you on Fanvue",
+    "items": [
+      { "title": "2+ exclusive posts every week", "sub": "fresh sets, no filler" },
+      { "title": "personal DMs — I reply myself", "sub": "when I'm awake. promise. no bots." },
+      { "title": "custom requests", "sub": "if you ask nicely" },
+      { "title": "regular giveaways for subscribers", "sub": "month subs, free chats, more" }
+    ],
+    "cta_locked": "first in line when it opens →",
+    "cta_open": "join Fanvue →"
+  },
+  "giveaway": {
+    "tag": "giveaway"
+  },
+  "footer": {
+    "copy": "© 2026 Juli",
+    "terms": "terms",
+    "privacy": "privacy",
+    "contact": "contact"
+  },
+  "sticky": {
+    "fv": "Fanvue",
+    "tg": "Telegram"
+  }
+}

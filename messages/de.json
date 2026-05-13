@@ -1,0 +1,106 @@
+{
+  "age": {
+    "eyebrow": "nur ab 18",
+    "title": "willst du wirklich rein?",
+    "sub": "mit dem betreten bestätigst du, dass du volljährig bist und bereit für alles drinnen.",
+    "yes": "ja, baby 🖤",
+    "no": "lieber doch nicht"
+  },
+  "nav": {
+    "lang": "DE",
+    "theme_soft": "Sanft",
+    "theme_dark": "Dunkel"
+  },
+  "hero": {
+    "handle": "@julisergova",
+    "scroll": "scroll"
+  },
+  "stats": {
+    "posts_label": "posts auf fanvue",
+    "per_week": "neue posts / woche",
+    "dms": "persönliche DMs",
+    "dms_sub": "ich antworte selbst"
+  },
+  "sides": {
+    "eyebrow": "zwei seiten",
+    "soft_title": "die sanfte seite",
+    "soft_sub": "guten-morgen-DMs. kuschelpulli. sommersprossen, die du noch nicht kennst.",
+    "wild_title": "die wilde seite",
+    "wild_sub": "perücken, latex, face paint. die version, die zurück beißt.",
+    "toggle_soft": "sanft",
+    "toggle_wild": "wild"
+  },
+  "poll": {
+    "eyebrow": "du entscheidest",
+    "teaser": "abstimmung läuft",
+    "voted": "du hast gewählt ✓",
+    "votes": "stimmen",
+    "cta_after": "gewinnerin auf Fanvue sehen →"
+  },
+  "fv": {
+    "tag": "gesperrt",
+    "seal": "hinter dem schloss",
+    "live_badge": "Fanvue · live",
+    "next_drop": "nächster post in",
+    "kicker": "das hauptevent",
+    "title": "Fanvue öffnet in",
+    "title_open": "Fanvue ist offen",
+    "tease": "alles, was ich sonst nirgendwo posten kann. unzensierte sets, sprachnachrichten um 3 uhr, die DMs, für die meine mama mich umbringen würde.",
+    "perks": [
+      "unzensierte sets pro woche",
+      "sprachnachrichten & lange videos",
+      "persönliche DMs — ich antworte selbst",
+      "custom requests, wenn du lieb fragst"
+    ],
+    "d": "tage",
+    "h": "std",
+    "m": "min",
+    "s": "sek",
+    "cta_locked": "early-access link sichern →",
+    "cta_open": "alles freischalten →",
+    "foot_locked": "die ersten 50 abos: ein monat gratis + persönliches video",
+    "foot_open": "monatlich · jederzeit kündbar · DMs inklusive"
+  },
+  "tg": {
+    "title": "telegram — mein leben 🖤",
+    "desc": "daily updates, sprachnachrichten, behind the scenes. hier bin ich wirklich.",
+    "cta": "flüster mir hier zu →",
+    "preview_msg": "hab was neues gepostet... willst du's sehen? 🖤",
+    "preview_time": "23:48",
+    "chip": "telegram"
+  },
+  "ig": {
+    "title": "instagram — die sanfte seite",
+    "desc": "selfies, spiegel-pics, die version die du fast deiner mama zeigen kannst.",
+    "cta": "auf insta folgen →",
+    "chip": "instagram"
+  },
+  "letter": {
+    "eyebrow": "von mir"
+  },
+  "wyg": {
+    "eyebrow": "das gute",
+    "title": "was auf Fanvue auf dich wartet",
+    "items": [
+      { "title": "2+ exklusive posts pro woche", "sub": "frische sets, kein füller" },
+      { "title": "persönliche DMs — ich antworte selbst", "sub": "wenn ich wach bin. keine bots." },
+      { "title": "custom requests", "sub": "wenn du lieb fragst" },
+      { "title": "giveaways für abonnenten", "sub": "monatsabos, gratis chats, mehr" }
+    ],
+    "cta_locked": "erster sein wenn's losgeht →",
+    "cta_open": "zu Fanvue →"
+  },
+  "giveaway": {
+    "tag": "giveaway"
+  },
+  "footer": {
+    "copy": "© 2026 Juli",
+    "terms": "agb",
+    "privacy": "datenschutz",
+    "contact": "kontakt"
+  },
+  "sticky": {
+    "fv": "Fanvue",
+    "tg": "Telegram"
+  }
+}

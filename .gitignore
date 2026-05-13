@@ -31,6 +31,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# photos — managed via admin upload, not git
+/public/img/
+/public/uploads/
+/Photos/
+/design-ref/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
