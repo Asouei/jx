@@ -85,7 +85,7 @@ export default function CosplayPoll({ content }: { content: SiteContent }) {
               <span className="dot" /> {t('eyebrow')}
             </div>
           </div>
-          <h2 className="h-2" style={{ textAlign: 'center' }}>
+          <h2 className="heading-2" style={{ textAlign: 'center' }}>
             {getText(poll.title, locale)}
           </h2>
           <p className="p-lede" style={{ textAlign: 'center', maxWidth: 540, margin: '0 auto' }}>

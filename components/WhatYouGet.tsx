@@ -28,7 +28,7 @@ export default function WhatYouGet({ content }: { content: SiteContent }) {
             </div>
           </div>
           <div className="wyg-card">
-            <h2 className="h-2" style={{ textAlign: 'center' }}>
+            <h2 className="heading-2" style={{ textAlign: 'center' }}>
               {t('title')}
             </h2>
             <ul className="wyg-list">
