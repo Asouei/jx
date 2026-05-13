@@ -59,7 +59,7 @@
 /* ── Base reset ────────────────────────────────────────────────── */
 
 *, *::before, *::after { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; overflow-x: hidden; width: 100%; }
 
 body {
   font-family: var(--font-body);
@@ -203,7 +203,7 @@ body::before {
 
 /* ── Section padding ───────────────────────────────────────────── */
 
-.sect { padding: 72px 0; position: relative; z-index: 2; }
+.sect { padding: 72px 0; position: relative; z-index: 2; overflow: hidden; }
 @media (min-width: 720px) { .sect { padding: 96px 0; } }
 .sect-tight { padding: 40px 0; }
 
@@ -364,6 +364,7 @@ body::before {
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
   padding-top: 64px;
+  background: var(--c-bg);
 }
 @media (min-width: 720px) { .hero { height: 92vh; min-height: 680px; } }
 
