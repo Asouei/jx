@@ -243,9 +243,11 @@ body::before {
 }
 :root[data-theme="dark"] .brand { font-weight: 800; }
 .brand .heart {
-  color: var(--c-accent);
   display: inline-flex; align-items: center;
   filter: drop-shadow(0 0 6px var(--c-accent-glow));
+}
+.brand .heart svg {
+  fill: var(--c-accent);
 }
 
 .topbar-tools { display: flex; align-items: center; gap: 6px; }

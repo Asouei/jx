@@ -89,8 +89,14 @@ function ImageUploader({
     try {
       const res = await fetch('/api/upload', { method: 'POST', body: formData });
       const data = await res.json();
-      if (data.url) onChange(data.url);
-    } catch {} finally {
+      if (data.url) {
+        onChange(data.url);
+      } else {
+        alert('Upload failed: ' + (data.error || 'unknown error'));
+      }
+    } catch (err) {
+      alert('Upload error: ' + String(err));
+    } finally {
       setUploading(false);
     }
   };
@@ -98,6 +104,8 @@ function ImageUploader({
   const handleFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) doUpload(file);
+    // Reset input so same file can be re-selected
+    e.target.value = '';
   };
 
   const handleDrop = (e: React.DragEvent) => {
