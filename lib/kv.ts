@@ -30,14 +30,17 @@ export async function getContent(): Promise<SiteContent> {
     const kv = await getKvClient();
     if (kv) {
       const data = await kv.get<SiteContent>(CONTENT_KEY);
+      console.log('[kv.getContent] got from KV, data exists:', !!data, 'type:', typeof data);
       if (data) return data;
     } else {
+      console.log('[kv.getContent] KV not available, using memoryStore');
       const raw = memoryStore[CONTENT_KEY];
       if (raw) return JSON.parse(raw);
     }
   } catch (e) {
-    console.error('Failed to get content from KV:', e);
+    console.error('[kv.getContent] FAILED:', e);
   }
+  console.log('[kv.getContent] returning DEFAULT_CONTENT');
   return DEFAULT_CONTENT;
 }
 

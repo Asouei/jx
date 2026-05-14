@@ -12,7 +12,9 @@ export async function GET() {
     'KV_REST_API_URL:', !!process.env.KV_REST_API_URL,
     'UPSTASH_REDIS_REST_URL:', !!process.env.UPSTASH_REDIS_REST_URL);
   const content = await getContent();
-  console.log('[content GET] telegram_url:', content.telegram_url);
+  console.log('[content GET] telegram_url:', content.telegram_url,
+    'hero1:', content.images?.hero1?.substring(0, 50) || 'EMPTY',
+    'isDefault:', content.images?.hero1 === '/img/hero-1.jpg');
   return NextResponse.json(content, {
     headers: { 'Cache-Control': 'no-store' },
   });
