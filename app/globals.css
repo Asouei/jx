@@ -244,6 +244,7 @@ body::before {
 :root[data-theme="dark"] .brand { font-weight: 800; }
 .brand .heart {
   display: inline-flex; align-items: center;
+  margin-left: 2px;
   filter: drop-shadow(0 0 6px var(--c-accent-glow));
 }
 .brand .heart svg {
