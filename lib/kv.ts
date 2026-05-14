@@ -5,13 +5,24 @@ const CONTENT_KEY = 'site_content';
 const memoryStore: Record<string, string> = {};
 
 function isKvAvailable(): boolean {
-  return !!(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
+  return !!(getKvUrl() && getKvToken());
+}
+
+function getKvUrl(): string | undefined {
+  return process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+}
+
+function getKvToken(): string | undefined {
+  return process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
 }
 
 async function getKvClient() {
   if (!isKvAvailable()) return null;
-  const { kv } = await import('@vercel/kv');
-  return kv;
+  const { createClient } = await import('@vercel/kv');
+  return createClient({
+    url: getKvUrl()!,
+    token: getKvToken()!,
+  });
 }
 
 export async function getContent(): Promise<SiteContent> {
