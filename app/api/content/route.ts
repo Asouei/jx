@@ -25,10 +25,17 @@ export async function PUT(request: NextRequest) {
   }
   try {
     const body = await request.json();
+    console.log('[content PUT] images received:', JSON.stringify(body.images));
     const parsed = ContentSchema.parse(body);
+    console.log('[content PUT] parsed OK, saving...');
     await setContent(parsed);
+    console.log('[content PUT] saved OK');
+    // Verify it was saved
+    const verify = await getContent();
+    console.log('[content PUT] verify images:', JSON.stringify(verify.images));
     return NextResponse.json({ success: true });
   } catch (e) {
+    console.error('[content PUT] ERROR:', e);
     return NextResponse.json({ error: 'Invalid content', details: String(e) }, { status: 400 });
   }
 }
