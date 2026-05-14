@@ -7,9 +7,14 @@ import { ContentSchema } from '@/lib/content-schema';
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
+  const kvAvailable = !!(process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL);
+  console.log('[content GET] KV available:', kvAvailable,
+    'KV_REST_API_URL:', !!process.env.KV_REST_API_URL,
+    'UPSTASH_REDIS_REST_URL:', !!process.env.UPSTASH_REDIS_REST_URL);
   const content = await getContent();
+  console.log('[content GET] telegram_url:', content.telegram_url);
   return NextResponse.json(content, {
-    headers: { 'Cache-Control': 'public, s-maxage=10, stale-while-revalidate=30' },
+    headers: { 'Cache-Control': 'no-store' },
   });
 }
 

@@ -91,7 +91,7 @@ export const DEFAULT_IMAGES: ImageSlots = {
 
 export const DEFAULT_CONTENT: SiteContent = {
   fanvue_url: 'https://www.fanvue.com/julisergova',
-  telegram_url: 'https://t.me/xojuli',
+  telegram_url: 'https://t.me/juliasergova',
   instagram_url: 'https://instagram.com/julisergova',
   next_drop_hours: 62,
   force_locked: false,
