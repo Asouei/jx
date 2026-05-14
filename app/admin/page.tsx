@@ -88,7 +88,12 @@ function ImageUploader({
     formData.append('file', file);
     try {
       const res = await fetch('/api/upload', { method: 'POST', body: formData });
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try { data = JSON.parse(text); } catch {
+        alert('Upload failed (server error): ' + text.substring(0, 200));
+        return;
+      }
       if (data.url) {
         onChange(data.url);
       } else {

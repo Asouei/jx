@@ -241,7 +241,7 @@ body::before {
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent; color: transparent;
 }
-:root[data-theme="dark"] .brand { font-weight: 700; letter-spacing: -0.02em; }
+/* dark brand inherits same font-weight as soft */
 .brand .heart {
   display: inline-flex; align-items: center;
   flex-shrink: 0;
